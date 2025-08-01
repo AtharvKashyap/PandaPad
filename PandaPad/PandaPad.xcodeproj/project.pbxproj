@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7CFE8EE2C6D9E9700E5594D /* PandaPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE8ED2C6D9E9700E5594D /* PandaPad.swift */; };
+		C7CFE8F02C6D9E9700E5594D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE8EF2C6D9E9700E5594D /* ContentView.swift */; };
+		C7CFE8F22C6D9E9800E5594D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CFE8F12C6D9E9800E5594D /* Assets.xcassets */; };
+		C7CFE8F62C6D9E9800E5594D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CFE8F52C6D9E9800E5594D /* Preview Assets.xcassets */; };
+		C7CFE9032C6DA05E00E5594D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE9022C6DA05E00E5594D /* Models.swift */; };
+		C7CFE9052C6DA07000E5594D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE9042C6DA07000E5594D /* ViewModel.swift */; };
+		C7CFE9102C6E4C5700E5594D /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE90F2C6E4C5700E5594D /* OpenAIManager.swift */; };
+		C7CFE9122C6F90FB00E5594D /* ExitPhraseHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE9112C6F90FB00E5594D /* ExitPhraseHandling.swift */; };
+		C7CFE9152C703CF700E5594D /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = C7CFE9142C703CF700E5594D /* OpenAI */; };
+		C7CFE9192C70F64600E5594D /* GoodDog Cool.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7CFE9172C70F64600E5594D /* GoodDog Cool.ttf */; };
+		C7CFE91A2C70F64600E5594D /* GoodDog Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7CFE9182C70F64600E5594D /* GoodDog Plain.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C794B2262C73B2200067DEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CFE8EA2C6D9E9700E5594D /* PandaPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CFE8ED2C6D9E9700E5594D /* PandaPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaPad.swift; sourceTree = "<group>"; };
+		C7CFE8EF2C6D9E9700E5594D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7CFE8F12C6D9E9800E5594D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CFE8F32C6D9E9800E5594D /* PandaPad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PandaPad.entitlements; sourceTree = "<group>"; };
+		C7CFE8F52C6D9E9800E5594D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7CFE9022C6DA05E00E5594D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C7CFE9042C6DA07000E5594D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C7CFE90F2C6E4C5700E5594D /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
+		C7CFE9112C6F90FB00E5594D /* ExitPhraseHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitPhraseHandling.swift; sourceTree = "<group>"; };
+		C7CFE9172C70F64600E5594D /* GoodDog Cool.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoodDog Cool.ttf"; sourceTree = "<group>"; };
+		C7CFE9182C70F64600E5594D /* GoodDog Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoodDog Plain.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CFE8E72C6D9E9700E5594D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFE9152C703CF700E5594D /* OpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CFE8E12C6D9E9700E5594D = {
+			isa = PBXGroup;
+			children = (
+				C7CFE8EC2C6D9E9700E5594D /* PandaPad */,
+				C7CFE8EB2C6D9E9700E5594D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CFE8EB2C6D9E9700E5594D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFE8EA2C6D9E9700E5594D /* PandaPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CFE8EC2C6D9E9700E5594D /* PandaPad */ = {
+			isa = PBXGroup;
+			children = (
+				C794B2262C73B2200067DEAC /* Info.plist */,
+				C7CFE8ED2C6D9E9700E5594D /* PandaPad.swift */,
+				C7CFE9162C70F5DB00E5594D /* Font */,
+				C7CFE8EF2C6D9E9700E5594D /* ContentView.swift */,
+				C7CFE9022C6DA05E00E5594D /* Models.swift */,
+				C7CFE9042C6DA07000E5594D /* ViewModel.swift */,
+				C7CFE9112C6F90FB00E5594D /* ExitPhraseHandling.swift */,
+				C7CFE90F2C6E4C5700E5594D /* OpenAIManager.swift */,
+				C7CFE8F12C6D9E9800E5594D /* Assets.xcassets */,
+				C7CFE8F32C6D9E9800E5594D /* PandaPad.entitlements */,
+				C7CFE8F42C6D9E9800E5594D /* Preview Content */,
+			);
+			path = PandaPad;
+			sourceTree = "<group>";
+		};
+		C7CFE8F42C6D9E9800E5594D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFE8F52C6D9E9800E5594D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7CFE9162C70F5DB00E5594D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFE9172C70F64600E5594D /* GoodDog Cool.ttf */,
+				C7CFE9182C70F64600E5594D /* GoodDog Plain.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CFE8E92C6D9E9700E5594D /* PandaPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CFE8F92C6D9E9800E5594D /* Build configuration list for PBXNativeTarget "PandaPad" */;
+			buildPhases = (
+				C7CFE8E62C6D9E9700E5594D /* Sources */,
+				C7CFE8E72C6D9E9700E5594D /* Frameworks */,
+				C7CFE8E82C6D9E9700E5594D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaPad;
+			packageProductDependencies = (
+				C7CFE9142C703CF700E5594D /* OpenAI */,
+			);
+			productName = PandaPad;
+			productReference = C7CFE8EA2C6D9E9700E5594D /* PandaPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CFE8E22C6D9E9700E5594D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C7CFE8E92C6D9E9700E5594D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C7CFE8E52C6D9E9700E5594D /* Build configuration list for PBXProject "PandaPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CFE8E12C6D9E9700E5594D;
+			packageReferences = (
+				C7CFE9132C703CF700E5594D /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = C7CFE8EB2C6D9E9700E5594D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CFE8E92C6D9E9700E5594D /* PandaPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CFE8E82C6D9E9700E5594D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFE8F62C6D9E9800E5594D /* Preview Assets.xcassets in Resources */,
+				C7CFE8F22C6D9E9800E5594D /* Assets.xcassets in Resources */,
+				C7CFE9192C70F64600E5594D /* GoodDog Cool.ttf in Resources */,
+				C7CFE91A2C70F64600E5594D /* GoodDog Plain.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CFE8E62C6D9E9700E5594D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFE9032C6DA05E00E5594D /* Models.swift in Sources */,
+				C7CFE9102C6E4C5700E5594D /* OpenAIManager.swift in Sources */,
+				C7CFE9122C6F90FB00E5594D /* ExitPhraseHandling.swift in Sources */,
+				C7CFE8F02C6D9E9700E5594D /* ContentView.swift in Sources */,
+				C7CFE9052C6DA07000E5594D /* ViewModel.swift in Sources */,
+				C7CFE8EE2C6D9E9700E5594D /* PandaPad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7CFE8F72C6D9E9800E5594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XNH89B274Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7CFE8F82C6D9E9800E5594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XNH89B274Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C7CFE8FA2C6D9E9800E5594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PandaPad/PandaPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PandaPad/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PandaPad/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PandaPad;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with Panda?";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atharvkashyap.PandaPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CFE8FB2C6D9E9800E5594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PandaPad/PandaPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PandaPad/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PandaPad/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PandaPad;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with Panda?";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atharvkashyap.PandaPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CFE8E52C6D9E9700E5594D /* Build configuration list for PBXProject "PandaPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CFE8F72C6D9E9800E5594D /* Debug */,
+				C7CFE8F82C6D9E9800E5594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CFE8F92C6D9E9800E5594D /* Build configuration list for PBXNativeTarget "PandaPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CFE8FA2C6D9E9800E5594D /* Debug */,
+				C7CFE8FB2C6D9E9800E5594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7CFE9132C703CF700E5594D /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7CFE9142C703CF700E5594D /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7CFE9132C703CF700E5594D /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C7CFE8E22C6D9E9700E5594D /* Project object */;
+}
